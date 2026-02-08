@@ -1,0 +1,56 @@
+.site-footer {
+    /* margin-top: 60px; */
+    padding: 40px 20px;
+    background-color: #0f0e47;
+    text-align: center;
+    color: #cad9e7;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 18px;
+}
+
+.footer-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    /* background-color: rgba(202, 217, 231, 0.15); */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.footer-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-icon:hover {
+    transform: scale(1.08);
+}
+
+.footer-text {
+    font-family: League Spartan, Arial;
+    font-size: 16px;
+    margin-bottom: 8px;
+    opacity: 0.9;
+}
+
+.footer-credit {
+    font-family: League Spartan, Arial;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-credit span {
+    color: #85bceb;
+}
+
+.footer-icon:active {
+    transform: scale(0.95);
+}

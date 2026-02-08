@@ -1,0 +1,413 @@
+.landing-page {
+    margin-bottom: 50px;
+}
+
+.GTBIT-logo,
+.college-ncc-logo {
+    width: 50px;
+}
+
+.ncc-logo {
+    width: 30px;
+}
+
+.college-logo {
+    display: flex;
+    /* flex-direction: row; */
+    /* height: 50px; */
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-left: 0;
+}
+
+.GTBIT,
+.GTBIT-ncc,
+.NCC {
+    width: auto;
+}
+
+
+
+@media (min-width: 700px) {
+    .ncc-logo {
+        width: 55px;
+    }
+
+    .GTBIT-logo,
+    .college-ncc-logo {
+        width: 80px;
+    }
+
+    .college-logo {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* flex-direction: row; */
+        /* height: 50px; */
+        justify-content: space-between;
+        align-items: center;
+        /* gap: 400px; */
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .ncc-logo {
+        width: 50px;
+    }
+
+    .GTBIT-logo,
+    .college-ncc-logo {
+        width: 80px;
+    }
+
+    .college-logo {
+        display: flex;
+        /* flex-direction: row; */
+        /* height: 50px; */
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 10px;
+        align-items: center;
+        /* gap: 650px; */
+        padding-left: 0;
+    }
+
+}
+
+.fest-name {
+    color: #a00311;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    line-height: 100px;
+    font-weight: 900;
+
+}
+
+.date {
+    margin-top: 0;
+    font-size: 38px;
+}
+
+.hero-date {
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    line-height: 70px;
+    font-family: League spartan;
+}
+
+
+
+
+.group-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-photo-image {
+    border: 5px;
+    border-style: solid;
+    border-color: #a00311;
+    border-radius: 40px;
+    height: 230px;
+}
+
+.register-now {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: league spartan, Arial;
+}
+
+.register {
+    font-size: 32px;
+    padding: 10px 60px;
+    padding-top: 12px;
+    font-family: league spartan, Arial;
+    border-radius: 35px;
+    background-color: #820d19;
+    border-color: #820d19;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+}
+
+.slogan {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan-para {
+    font-size: 25px;
+    font-family: league spartan;
+    font-weight: 900;
+    color: #0f0e47;
+}
+
+@media (min-width: 700px) {
+
+
+    .fest-name {
+        color: #a00311;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 170px;
+        line-height: 150px;
+        font-weight: 900;
+
+    }
+
+    .hero-date {
+        font-size: 48px;
+    }
+
+    /* .date {
+        margin-top: 0;
+        font-size: 58px;
+    } */
+    .group-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .group-photo-image {
+        border: 5px;
+        border-style: solid;
+        border-color: #a00311;
+        border-radius: 40px;
+        height: 290px;
+        transition: transform 0.3s ease;
+    }
+
+    .group-photo-image:hover{
+            transform: scale(1.03);
+
+    }
+    
+    .register-now {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: league spartan, Arial;
+    }
+
+    .register {
+        font-size: 50px;
+        padding: 10px 60px;
+        padding-top: 20px;
+        font-family: league spartan, Arial;
+        border-radius: 35px;
+        background-color: #820d19;
+        border-color: #820d19;
+        border-style: solid;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        transition: color 0.3s;
+        transition: transform 0.3s ease;
+    }
+
+    .register:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        transform: scale(1.1);
+    }
+    .slogan {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slogan-para {
+        font-size: 45px;
+        font-family: league spartan;
+        font-weight: 900;
+        color: #0f0e47;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width:1439px) {
+
+    .hero-page {
+        display: grid;
+        margin-top: 25px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fest-name {
+        color: #a00311;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 150px;
+        line-height: 120px;
+        font-weight: 900;
+
+    }
+
+    .hero-date {
+        font-size: 48px;
+    }
+
+    .date {
+        margin-top: 0;
+        font-size: 58px;
+
+    }
+    .landing-page-photo{
+        margin-top: 20px;
+    }
+    .group-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .group-photo-image {
+        border: 5px;
+        border-style: solid;
+        border-color: #a00311;
+        border-radius: 40px;
+        height: 270px;
+    }
+
+    .register-now {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: league spartan, Arial;
+    }
+
+    .register {
+        font-size: 40px;
+        padding: 10px 60px;
+        padding-top: 20px;
+        font-family: league spartan, Arial;
+        border-radius: 35px;
+        background-color: #820d19;
+        border-color: #820d19;
+        border-style: solid;
+        color: white;
+        font-weight: bold;
+    }
+
+    .slogan {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slogan-para {
+        font-size: 35px;
+        font-family: league spartan;
+        font-weight: 900;
+        color: #0f0e47;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fest-name {
+        color: #a00311;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 200px;
+        line-height: 150px;
+        font-weight: 900;
+
+    }
+
+    .hero-date {
+        font-size: 48px;
+    }
+
+    .date {
+        margin-top: 0;
+        font-size: 58px;
+
+    }
+    .landing-page-photo{
+        margin-top: 20px;
+    }
+    .group-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .group-photo-image {
+        border: 5px;
+        border-style: solid;
+        border-color: #a00311;
+        border-radius: 40px;
+        height: 320px;
+    }
+
+    .register-now {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: league spartan, Arial;
+    }
+
+    .register {
+        font-size: 50px;
+        padding: 10px 60px;
+        padding-top: 20px;
+        font-family: league spartan, Arial;
+        border-radius: 35px;
+        background-color: #820d19;
+        border-color: #820d19;
+        border-style: solid;
+        color: white;
+        font-weight: bold;
+    }
+
+    .slogan {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slogan-para {
+        font-size: 45px;
+        font-family: league spartan;
+        font-weight: 900;
+        color: #0f0e47;
+    }
+}

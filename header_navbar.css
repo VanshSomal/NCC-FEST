@@ -1,0 +1,81 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER */
+        header {
+            height: 60px;
+            background: #cad9e7;
+            font-weight: bold;
+            color: #a00311;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .menu-icon {
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        /* MOBILE MENU */
+        .mobile-menu {
+            position: fixed;
+            top: 60px;
+            left: -50%;
+            width: 50%;
+            height: calc(100vh - 60px);
+            background: #cad9e7;
+            padding: 20px;
+            transition: left 0.3s ease;
+            z-index: 999;
+        }
+
+        .mobile-menu a {
+            display: block;
+            color:#a00311;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 15px 0;
+            border-bottom: 1px solid #374151;
+        }
+
+        /* ACTIVE MENU */
+        .mobile-menu.active {
+            left: 0;
+        }
+
+        /* OVERLAY */
+        .overlay {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            height: calc(100vh - 60px);
+            background: rgba(0, 0, 0, 0.4);
+            display: none;
+            z-index: 998;
+        }
+
+        .overlay.active {
+            display: block;
+        }
+
+        /* DUMMY CONTENT */
+        main {
+            padding-top: 80px;
+            padding: 20px;
+        }

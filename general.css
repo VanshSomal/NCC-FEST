@@ -1,0 +1,40 @@
+body{
+    background-color: #cad9e7;
+    position: relative;
+    padding-top: 30px;
+    overflow-x: hidden;
+    height: 3000px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 140px;               /* move feather up/down */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 420px;             /* feather size */
+    height: 420px;
+
+    background-image: url("images_logo/feather-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    opacity: 0.3;            /* 🔥 CONTROL OPACITY HERE */
+    z-index: -1;
+}
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hackel{
+    width: auto;
+    height: 50%;
+    z-index: -1;
+}
+html {
+    scroll-behavior: smooth;
+}
